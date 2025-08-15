@@ -1,0 +1,13 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "Retail Porject Local Connection",
+            "database": "retail_project_data",
+            "username": "postgres"
+        }
+    ]
+}
