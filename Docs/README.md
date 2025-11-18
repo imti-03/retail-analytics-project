@@ -62,7 +62,8 @@ The dataset required extensive column-by-column validation (30+ fields cleaned) 
   - `staging.retail_raw` → raw upload layer  
   - `analytics.retail_clean` → validated analytical layer  
 
-Detailed documentation for each column transformation can be found in the [📘 Column Cleaning Log](Docs/Column_Cleaning_Log.pdf).
+Detailed documentation for each column transformation can be found in the [📘 Column Cleaning Log] [Column_Cleaning_Log.pdf](https://github.com/imti-03/retail-analytics-project/blob/main/Docs/Column_Cleaning_Log.pdf)
+
 
 ---
 
@@ -87,7 +88,7 @@ Data modeling involved defining relationships, casting correct data types, and c
 A **horizontal bar chart** compares total revenue by customer segment.  
 This revealed that **Regular customers** generate the highest overall revenue, suggesting consistent engagement and loyalty opportunities.
 
-> 🖼️ *Add image here:* `![Customer Revenue by Segment](Visuals/customer_segment_chart.png)`
+![Revenue by Segment](https://github.com/imti-03/retail-analytics-project/raw/main/Visuals/revenue_by_segment.png)
 
 ---
 
@@ -95,7 +96,7 @@ This revealed that **Regular customers** generate the highest overall revenue, s
 A **multi-line chart** tracks purchase activity per product category over 12 months.  
 Electronics and Clothing show strong seasonality, peaking around spring — insights that could guide inventory and campaign timing.
 
-> 🖼️ *Add image here:* `![Product Trends by Month](Visuals/product_trends_chart.png)`
+![Product Trends by Month](https://github.com/imti-03/retail-analytics-project/raw/main/Visuals/product_trends_by_month.png)
 
 ---
 
@@ -103,14 +104,14 @@ Electronics and Clothing show strong seasonality, peaking around spring — insi
 A **matrix visual** cross-analyzes payment and shipping combinations.  
 Credit Card + Express Shipping yields the **highest average spend**, linking customer convenience directly to revenue growth.
 
-> 🖼️ *Add image here:* `![Payment & Shipping Matrix](Visuals/finance_matrix_chart.png)`
+![Payment & Shipping Matrix](https://github.com/imti-03/retail-analytics-project/raw/main/Visuals/payment_shipping_matrix.png)
 
 ---
 
 ### 4️⃣ **Retail Performance Dashboard Overview**
 All visuals were integrated into a single Power BI page to create a unified view of the retail business.
 
-> 🖼️ *Add full dashboard image here:* `![Retail Performance Dashboard](Visuals/dashboard_full.png)`
+![Retail Performance Dashboard](https://github.com/imti-03/retail-analytics-project/raw/main/Visuals/full_dashboard.png)
 
 ---
 
@@ -149,10 +150,9 @@ His content gave me the courage and technical grounding to bring this project fr
 
 | File | Description |
 |------|--------------|
-| [📘 Column Cleaning Log (PDF)](Docs/Column_Cleaning_Log.pdf) | Documentation of all SQL column cleaning steps |
-| [💾 Power BI Dashboard (.pbix)](PowerBI/retail_performance_dashboard.pbix) | Final Power BI dashboard file |
-| [🧠 SQL Queries](SQL/) | Folder containing all SQL scripts for data staging and cleaning |
-| [📊 Visuals](Visuals/) | Folder containing exported Power BI dashboard images |
+| [📘 Column Cleaning Log (PDF)](https://github.com/imti-03/retail-analytics-project/blob/main/Docs/Column_Cleaning_Log.pdf) | Documentation of all SQL column cleaning steps |
+| [💾 Power BI Dashboard (.pbix)](https://github.com/imti-03/retail-analytics-project/blob/main/PowerBI/Retail_project_dashboard.pbix) | Final Power BI dashboard file |
+| [📊 Visuals](https://github.com/imti-03/retail-analytics-project/tree/main/Visuals/) | Folder containing exported Power BI dashboard images |
 
 ---
 
