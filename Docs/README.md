@@ -19,6 +19,7 @@ The goal was to design a data pipeline that could answer **three executive busin
 ---
 
 ## 🧱 Project Structure
+```txt
 Retail-Analytics-Project/
 │
 ├── Data/
@@ -44,7 +45,7 @@ Retail-Analytics-Project/
 └── Docs/
 ├── Column_Cleaning_Log.pdf
 └── README.md
-
+```
 
 ---
 
